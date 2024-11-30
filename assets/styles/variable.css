@@ -1,0 +1,78 @@
+:root {
+    --primary:#b69d61;
+    --primary-500:#ECB003;
+    --primary-700: #b69d61;
+    --primary-900: #b69d61;
+    --secondary: #B7A415;
+
+}
+
+.btn{
+    box-shadow: none !important;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    padding: 6px 24px;
+    font-size: 14px;
+    min-width: 100px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:disabled{
+    cursor:not-allowed !important;
+}
+  
+.btn-primary{
+    color: #EAEBEC;
+    background-color: var(--primary-900);
+    border-color: var(--primary-900);
+}
+
+.btn-primary:disabled {
+    background-color: var(--primary-900);
+    border-color: var(--primary-900);
+}
+
+.btn-primary:hover {
+    background: var(--primary-700);
+    border-color: var(--primary-700);
+    color: #dfdfdf;
+}
+
+.btn-primary:focus {
+    background: var(--primary-700);
+    border-color: var(--primary-700);
+      color: #dfdfdf;
+}
+
+.btn-secoundry{
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+
+.btn-light{
+    background: transparent;
+    color: #919EAB;
+    border-color: #D3D6DB;
+}
+
+
+.btn-light:disabled {
+    background-color: #9eaebe;
+    border-color: #9eaebe;
+}
+
+.btn-light:hover {
+    background: #919eab54;
+    border-color:#919eab54;
+    color: #27719c;
+}
+
+.btn-light:focus {
+    background: #919eab54;
+    border-color: #919eab54;
+    color: #27719c;
+}
